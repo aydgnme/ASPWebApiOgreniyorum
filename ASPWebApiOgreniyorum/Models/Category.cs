@@ -6,6 +6,6 @@ public class Category
     public string CategoryName { get; set; } = string.Empty;
     public string CategoryDescription { get; set; } = string.Empty;
 
-    // Gelecekte buraya Product listesi eklenecek (1:N Iliskisi icin)
-
+    // Iliski Tanimi: Bir kategoride birden fazla urun olabilir.
+    public List<Product> Products { get; set; } = new();
 }
