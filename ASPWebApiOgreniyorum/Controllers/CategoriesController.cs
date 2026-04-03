@@ -8,6 +8,7 @@ namespace ASPWebApiOgreniyorum
     [ApiController]
     public class CategoriesController : ControllerBase
     {
+        // Simule edilmiş kategoriler listesi
         private static List<Category> _categories = new List<Category>
         {
          new Category { CategoryId = 1, CategoryName = "Elektronik", CategoryDescription = "Telefon, bilgisayar, tablet ve aksesuar urunleri"},
